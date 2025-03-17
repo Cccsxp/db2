@@ -1,0 +1,901 @@
+{
+  "apis": [
+    {
+      "name": "Portal PAC",
+      "URL_ConsultaInventario": "http://ms-catalog-omnprod.137.116.47.4.nip.io/products/stock?",
+      "URL_CrearPedido": "http://omn-transfers-omnprod.137.116.47.4.nip.io/delivery/crearPedido",
+      "URL_ConsultaInfoPedido": "http://omn-transfers-omnprod.137.116.47.4.nip.io/delivery?",
+      "URL_EstandarizaDireccion": "http://10.244.143.29:80/Serviceadc/DataAddress",
+      "URL_WSCentro": "http://cav-eve-service-omnprod.137.116.47.4.nip.io/api/v1/cavs?",
+      "URL_CancelaPedido": "http://omn-transfers-omnprod.137.116.47.4.nip.io/delivery/cancelarPedido",
+      "URL_ActualizaDatosEnvio": "http://omn-transfers-omnprod.137.116.47.4.nip.io/delivery/actualizarDatosEnvio",
+      "URL_ValidarCobertura": "http://ms-catalog-omnprod.137.116.47.4.nip.io/validateAvailability/validate",
+      "URL_ScheduleOrder": "http://omn-transfers-omnprod.claro.com.co/delivery/schedule",
+      "URLProxyClaro": "http://proxyopt2.comcel.com.co:8080",
+      "id": "94c5"
+    }
+  ],
+  "servers": [
+    {
+      "category": "AC Personas",
+      "servers": [
+        {
+          "name": "WTURNOS01",
+          "ip": "172.23.3.46"
+        },
+        {
+          "name": "WTURNOS02",
+          "ip": "172.23.3.47"
+        }
+      ],
+      "id": "dcda"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Primer Post",
+      "content": "Contenido de prueba"
+    },
+    {
+      "id": "2",
+      "title": "Segundo Post",
+      "content": "Más contenido"
+    }
+  ],
+  "searches": [
+    {
+      "id": "0959",
+      "searchQuery": "a"
+    },
+    {
+      "id": "3a23",
+      "searchQuery": "api"
+    },
+    {
+      "id": "bafd",
+      "searchQuery": "PAC"
+    },
+    {
+      "id": "8271",
+      "searchQuery": "Banco"
+    },
+    {
+      "id": "dcbe",
+      "searchQuery": "a"
+    },
+    {
+      "id": "62f8",
+      "searchQuery": "a"
+    },
+    {
+      "id": "f0dc",
+      "searchQuery": "api"
+    },
+    {
+      "id": "6169",
+      "searchQuery": "a"
+    },
+    {
+      "id": "0dcc",
+      "searchQuery": "api"
+    },
+    {
+      "id": "6a12",
+      "searchQuery": "PAC"
+    },
+    {
+      "id": "2622",
+      "searchQuery": "PAC"
+    },
+    {
+      "id": "66cc",
+      "searchQuery": "Banco"
+    },
+    {
+      "id": "0468",
+      "searchQuery": "Banco"
+    },
+    {
+      "id": "198c",
+      "searchQuery": "a"
+    },
+    {
+      "id": "bb2e",
+      "searchQuery": "a"
+    }
+  ],
+  "apps": [
+    {
+      "id": "1",
+      "name": "MYIT Resolutor",
+      "category": "gestion-claro",
+      "link": "#",
+      "image": "img/MYIT.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://myitfull.claro.com.co:8443/arsys/shared/login.jsp"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestión de casos en bolsa de MYIT, estar pendiente de los tiempos, para casos de baja = 2 días, critica = 2 horas"
+    },
+    {
+      "id": "2",
+      "name": "MYIT Casos",
+      "category": "gestion-claro",
+      "image": "img/MYITCASOS.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://myit.claro.com.co:8443/dwp/app/#/account/login?returnUrl=%2F"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Cree y siga casos propios creados para la gestión según lass necesidades del grupo"
+    },
+    {
+      "id": "3",
+      "name": "Dynatrace",
+      "category": "gestion-claro",
+      "image": "img/Dynatrace.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://myitdynatrace.claro.com.co/e/d8c7da74-67f6-4c13-beb4-ea4f6d60aae3/#dashboard"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "IR server 2016 en adelante",
+          "url": "https://nwb24282.live.dynatrace.com/#dashboard;gtf=-30m;gf=all;id=b2828c63-d1d4-4a29-8648-51980f69ef16"
+        }
+      ],
+      "info": "Información en Dashboard de las apliaciones que soportamos, AC solo tiene visual de un 12%"
+    },
+    {
+      "id": "4",
+      "name": "SHAREPOINT General",
+      "category": "gestion-claro",
+      "image": "img/SHAREPOINT.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://claromovilco.sharepoint.com/sites/SoporteN3-Postventa/Documentos%20compartidos/Forms/AllItems.aspx?ga=1&id=%2Fsites%2FSoporteN3%2DPostventa%2FDocumentos%20compartidos%2FGeneral%2FG%2E%20Conocimiento%20Postventa%20N3&viewid=4e491ba6%2Dd21d%2D4c00%2Db45d%2D8fbd5b55c970"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Información sobre nuestro grupo de trabajo, documentos con toda la visula del grupo"
+    },
+    {
+      "id": "5",
+      "name": "Capacitación",
+      "category": "apps-hists",
+      "image": "img/Capacitacion.png",
+      "submenu": [
+        {
+          "label": "Documentos",
+          "url": "https://claromovilco.sharepoint.com/...1"
+        },
+        {
+          "label": "Querys básicos",
+          "url": "https://claromovilco.sharepoint.com/...2"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Eprm7h7xxk9Fkv0j7hsWuv0BZ0N3_g6-0Vn5MGgZNmw3GA?e=1xgghW"
+        },
+        {
+          "label": "Info",
+          "url": ""
+        }
+      ],
+      "info": "URLS que llevan a archivos claves para futuras y actuales capacitaciones"
+    },
+    {
+      "id": "1736956963078",
+      "name": "Bitacora",
+      "category": "gestion-claro",
+      "image": "img/EXCEL.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://claromovilco.sharepoint.com/:x:/s/SoporteN3-Postventa/ESiRJRkloYBIq8-ptqe7C60BDzMbz0uiI1x4otRn188L9A?e=2sbFQ0"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Agrega en un excel los casos gestionados diariamente"
+    },
+    {
+      "id": "1736957018053",
+      "name": "Sistemas AC",
+      "category": "gestion-claro",
+      "image": "img/EXCEL.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://claromovilco.sharepoint.com/:x:/s/SoporteN3-Postventa/ERZGxMZ8y39Lm2-VOS3jBlQBUfVh9Rpw8KrNQqCyOULRjg?e=cP5svQ&ovuser=aed466c0-de70-4cf7-9e10-5ea1f9a696f4%2Cjaiveramr%40algartech.com&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yMzEwMTIyNzcxMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Información general del las Apps de la transversal"
+    },
+    {
+      "id": "1736957487240",
+      "name": "SOX",
+      "category": "gestion-claro",
+      "image": "img/SOX.png",
+      "submenu": [
+        {
+          "label": "Otros",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Ep_3_MynDNtAuK18XhM-4hkBoJjbk_czzkfvrCRuX1Ot_g?e=wwipfy"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "Cargar",
+          "url": "https://claromovilco.sharepoint.com/sites/CALIDADMYIT/Documentos%20compartidos/Forms/AllItems.aspx?ga=1&id=%2Fsites%2FCALIDADMYIT%2FDocumentos%20compartidos%2FACCESOS%5F2022%2FPlataformas%20SOX%2FAplicaciones%20Postventa%20Canales%2FAuditoriaAC%2DUsuarios&sortField=Modified&isAscending=false&viewid=5f86b050%2Da8f7%2D4214%2Db03f%2D636e7da06df7"
+        },
+        {
+          "label": "Query",
+          "url": "https://claromovilco.sharepoint.com/:t:/s/SoporteN3-Postventa/ERyl86s5wVVGqIwpsQNco9gBjNRLJKaLlnbAaUvvf15zcA?e=R4bb9H"
+        }
+      ],
+      "info": "Gestión de auditoría SOX de la mañana y las solicitadas por demanda"
+    },
+    {
+      "id": "1736957863161",
+      "name": "FW IT",
+      "category": "gestion-claro",
+      "image": "img/fw.png",
+      "submenu": [
+        {
+          "label": "Agregar",
+          "url": "https://claromovilco.sharepoint.com/sites/Automatizaciones/ReglasFWIT/Lists/Registro_Solicitudes_ReglasFWIT/ReglasNew.aspx"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "Casos",
+          "url": "https://claromovilco.sharepoint.com/sites/Automatizaciones/ReglasFWIT/SitePages/ReglasInicio.aspx"
+        }
+      ],
+      "info": "Agregue casos para permisos y gestión de Firewall"
+    },
+    {
+      "id": "1736957932672",
+      "name": "Planner",
+      "category": "gestion-claro",
+      "image": "img/planner.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://planner.cloud.microsoft/webui/plan/CbUetjFkjEalMSlgFPzoMWQAGKkf/view/board?tid=46bb22b8-4c2c-40ff-8360-7b6334821279"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Orden y tareas del equipo de trabajo"
+    },
+    {
+      "id": "1736958058553",
+      "name": "HOSTS",
+      "category": "apps-hists",
+      "image": "img/HOST.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://host.globalhitss.com/#"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Agregue y gestione sus horas"
+    },
+    {
+      "id": "1736958098917",
+      "name": "GLPI",
+      "category": "apps-hists",
+      "image": "img/GLPI.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://glpi.globalhitss.com/"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Autentifiquese"
+    },
+    {
+      "id": "1736958313604",
+      "name": "ID HISTS",
+      "category": "apps-hists",
+      "image": "img/ID HISTS.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://id.globalhitss.com/login.php"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Consulta tu información de empleado"
+    },
+    {
+      "id": "1736958353014",
+      "name": "Firma Digital",
+      "category": "apps-hists",
+      "image": "img/FIRMA.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://firmadigital.globalhitss.com/login.php"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestione documentos con su respectiva firma"
+    },
+    {
+      "id": "1736958395584",
+      "name": "Bonita",
+      "category": "apps-hists",
+      "image": "img/bonita.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://hpp.globalhitss.com/bonita/login.jsp?redirectUrl=%2Fbonita%2Fportal%2Fresource%2Fapp%2FausentismoColombia%2FsolicitudAusentismoColombia%2Fcontent%2F"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Solicite vacaciones, permisos y días"
+    },
+    {
+      "id": "1736958458482",
+      "name": "Horas Extras",
+      "category": "apps-hists",
+      "image": "img/SHAREPOINT.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://globalhitss.sharepoint.com/sites/AppsColombia/NovedadesNomina/SitePages/NovedadesNomina.aspx#"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Agregue las horas extras del mes, recuerde el corte"
+    },
+    {
+      "id": "1736958501627",
+      "name": "CARSO",
+      "category": "apps-hists",
+      "image": "img/CARSO.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://capacitatecarso.com/login"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Cursos y certificados para mejorar tu perfil"
+    },
+    {
+      "id": "1736958626323",
+      "name": "Office 365",
+      "category": "apps-hists",
+      "image": "img/office365.jpg",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://www.office.com/?auth=2"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "El paqueete de office online, desde cualquier navegador"
+    },
+    {
+      "id": "1736958703271",
+      "name": "AZURE",
+      "category": "gestion-diaria",
+      "image": "img/azure.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://dev.azure.com/OrgClaroColombia/OTROS%20CRM%20MOVIL/_git/BRANCH_EVERIS?path=/CMC&version=GBmaster&_a=contents"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Recuerde hacer una descargar semanal"
+    },
+    {
+      "id": "1736958840103",
+      "name": "Calendarios",
+      "category": "gestion-diaria",
+      "image": "img/calendario2-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "Asistencia",
+          "url": "https://claromovilco.sharepoint.com/:p:/s/SoporteN3-Postventa/EQTNML1CwcBHgQsCM33KmRkBIY6G0-g4-2PkwYowYzS5Sg?e=89O94W"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "On-call - Auditoría",
+          "url": "https://claromovilco.sharepoint.com/:p:/s/SoporteN3-Postventa/EcNTebR_SvRDveUpbH0AOjEBJXVIkue4gn_b5qwzW-EDnQ?e=9Y6LqO"
+        }
+      ],
+      "info": "Gestión de calendarios del equipo para on-call, auditoría y dempas eventos "
+    },
+    {
+      "id": "1736958915660",
+      "name": "Bases de Datos",
+      "category": "gestion-diaria",
+      "image": "img/Base_de_Datos-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "Documentos",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/EjozS4XWwndPl5kJ7I60RMoBp4yFMbRQ6wVjDYRtz3TcJA?e=WLh0gC"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Información deSharePoint con toda la información de Base de Datos"
+    },
+    {
+      "id": "1736958997404",
+      "name": "Servidores",
+      "category": "gestion-diaria",
+      "image": "img/Servidores-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "Documentos",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/EqFAlxHj0N1GtYmx-l-EX7QBP2CAw6xyy6kTsw6mNv_b-g?e=vCmvEg"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Documentación sobre los servidores que usamos en la operación "
+    },
+    {
+      "id": "1736959194110",
+      "name": "AC",
+      "category": "apps",
+      "image": "img/AC-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "Dynatrace",
+          "url": "https://myitdynatrace.claro.com.co/e/d8c7da74-67f6-4c13-beb4-ea4f6d60aae3/ui/problems?dashboardId=b2828c63-d1d4-4a29-8648-51980f69ef16&tileId=23&gf=8077485060611697560&gtf=-2h"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/ErQNIyla4tBLrIQlyFrAA_oBa2b0cZuUvNUWH6V5CfeUJw?e=Kb5dQP"
+        },
+        {
+          "label": "AC +",
+          "url": "https://acplus.claro.com.co/"
+        },
+        {
+          "label": "Querys",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Eih2D0LMrQpJg5Nh1nzQ47sBFkuvz6IPR0r4t1n69KwnLg?e=SK18Xq"
+        },
+        {
+          "label": "Visual 360",
+          "url": "https://claromovilco.sharepoint.com/:p:/s/SoporteN3-Postventa/EcPmYfNC2T9PpRfpkDpPAVMBmKgYO3zTL7BlHpa2PqGQWg?e=0mlKkY"
+        }
+      ],
+      "info": "App principal del equipo de soprte, encargada de la gestión Postventa de Claro en línea movil, cambiso de plan, IMEI, Bordcast, servicios, facturas, manejo de clientes"
+    },
+    {
+      "id": "1736959363365",
+      "name": "Gestor PQR",
+      "category": "apps",
+      "image": "img/PQR (2).png",
+      "submenu": [
+        {
+          "label": "Dynatrace",
+          "url": "https://myitdynatrace.claro.com.co/e/d8c7da74-67f6-4c13-beb4-ea4f6d60aae3/ui/problems?dashboardId=b2828c63-d1d4-4a29-8648-51980f69ef16&tileId=100&gf=1229971362057336599&gtf=-2h"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/EljXjxXDnDNEi8DKoVyPl64BpMzlyHmNJ3AeAHl4av-nQw?e=a55efs"
+        },
+        {
+          "label": "Querys",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Em9ehRsjMrFLt8bD5xw8GXEByvyY2yxWcikVbKUIHjUFfA?e=k6eUmn"
+        },
+        {
+          "label": "Visual 360",
+          "url": "https://claromovilco.sharepoint.com/:p:/s/SoporteN3-Postventa/EXQYATTCGW5PlMi1qk9VDvIBPnkj78uBAzYy-M69rPIUIA?e=s6C449"
+        }
+      ],
+      "info": "Gestor de las PQRs de Claro, manejo de peticiones de la compañia, preguntas, quejas y respuestas, recordar que es regulatoria"
+    },
+    {
+      "id": "1736959523521",
+      "name": "Portal PAC",
+      "category": "apps",
+      "image": "img/PAC.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://wweb02prod:8084/VisorUnico/Login.aspx"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "Antiguo IR",
+          "url": "http://172.23.3.5/VisorUnico/login.aspx"
+        },
+        {
+          "label": "Dynatrace",
+          "url": "https://myitdynatrace.claro.com.co/e/d8c7da74-67f6-4c13-beb4-ea4f6d60aae3/ui/problems?dashboardId=b2828c63-d1d4-4a29-8648-51980f69ef16&tileId=100&gf=5052431289653598518&gtf=-2h"
+        },
+        {
+          "label": "Querys",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Ethq_jdYhO5OsZ9ewEk9vOEBg8tympK77HOvnmdeCxC_BA?e=WMGI9N"
+        },
+        {
+          "label": "Visual 360",
+          "url": "https://claromovilco.sharepoint.com/:p:/s/SoporteN3-Postventa/ESkmUdSxvpNCoQdRemEF8_sB2ZOnQIjqCsN4F1d9G4zGvw?e=11sv8k"
+        }
+      ],
+      "info": "Antes era de AC, ahora es un herramienta de gestión de envios, información, gestión de inventarios, consulta de usuarios, Portal de canal postventa en donde se atienden procesos de creación y seguimiento de bolsa a procesos corporativos, procesos de inventario de logística entrega y administración de inventarios sobre el segmento movil, activación de simcard, activación de claro sync, activación de volte entre otras funcionalidades"
+    },
+    {
+      "id": "1736959885037",
+      "name": "Portal SGCS",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:91/Pages/Default.aspx"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/EmK6zTKKeJRHvQsBlUOSJfkBl19wPrqC5uQ6Y3jLAYU8lw?e=Ov6iKZ"
+        }
+      ],
+      "info": "Creación de formularios a medida del administrador"
+    },
+    {
+      "id": "1736959945834",
+      "name": "ASTELNET",
+      "category": "apps",
+      "image": "img/ASTELNET.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:8085/AccesoNegado.aspx?msg=Usuario%20no%20Autorizado%2046054812"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Susoender, reconectar, administrar usuarios del mismo aplicativo "
+    },
+    {
+      "id": "1736959991671",
+      "name": "CLARAMENTE",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://172.24.232.165/claramente/"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal que permite el almacenamiento de minisitios u portales usandos en el segmento movil"
+    },
+    {
+      "id": "1736960029410",
+      "name": "FACTURA",
+      "category": "apps",
+      "image": "img/FACTURA.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.251.118:8083/Default.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestión de facturas"
+    },
+    {
+      "id": "1736960060389",
+      "name": "INTRANET",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:8086/Intranet-Roaming/CargueMasivo"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Consulta de consumos de roaming intranet sobre lineas del segmento movil"
+    },
+    {
+      "id": "1736960178764",
+      "name": "Portal SAC",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:8083/User/InformacionConsumos.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal de información y comunicación que permite unificar contenido interno de la compañia hacia los asesores de servicio y areas comerciales"
+    },
+    {
+      "id": "1736960257332",
+      "name": "Cuenta al día",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://100.123.251.118:8086/InicioCtaDia.aspx"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Em0-e717vGBPoqdWDdZpJW4BQBpq7t5vlvPhhc1Enl7uVw?e=YWwHmr"
+        }
+      ],
+      "info": "Permite validar y generar un certificado de cuenta para usuarios vinculados a CLARO"
+    },
+    {
+      "id": "1736960320751",
+      "name": "Administrador Portal SAC",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:81/Admin/index.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal que permite la administración de contenido de la información que se publica en el aplicativo Portal SAC"
+    },
+    {
+      "id": "1736960355199",
+      "name": "Portal CMC",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:82/Claro.Cmc/Login/Login.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal de primer nivel, que permite a los consultores realizar un primer soporte sobre las lineas del segmento mobile"
+    },
+    {
+      "id": "1736960385610",
+      "name": "Portal SMO",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.251.118:81/consulta_usuarios.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Permite sincronizar los parametros de configuración de mensajeria sobre las bases de datos SMSSERV y BSCS para el segmento de la movil"
+    },
+    {
+      "id": "1736960418640",
+      "name": "BROADCAST",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.251.118:8082/Componentes/Asp/ConsultaBroadCast.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal de consulta estado actual mensajeria corta"
+    },
+    {
+      "id": "1736960473849",
+      "name": "Portal CABSnv",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:8088/App_Web/CabsMenu.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Portal que permite validar el estado de cartera para lineas o usuarios del segmento movil"
+    },
+    {
+      "id": "1736960525652",
+      "name": "DIGITURNOS 5",
+      "category": "apps",
+      "image": "img/digiturnos.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://player.turnosclaro.com.co/(S(uzxaxmjeze5qwrlmripzbtsv))/Player.aspx?Recurso=Funcionario%20Claro&Oficina=31&Sala=31&Selector=118&OficinaAgendamiento=031&fullscreen=1"
+        },
+        {
+          "label": "General",
+          "url": "https://claromovilco.sharepoint.com/:f:/s/SoporteN3-Postventa/Ej0qzlvCAhRHqxNZlmYHXP0BXE7fwmKIHwX31krCCDnO5g?e=1wrdPj"
+        },
+        {
+          "label": "Info",
+          "url": ""
+        }
+      ],
+      "info": "Turnos de claro por segmentación, parar problemas e INC de errores en la App se debe enviar correo a: pperez@cielingenieria.com - soporte.ext@cielingenieria.com"
+    },
+    {
+      "id": "1736960556585",
+      "name": "Portal Disponibilidad",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:9099/Web.Disponibilidad"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Por agregar"
+    },
+    {
+      "id": "1736960595196",
+      "name": "Visor TICKLERS",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://wweb02/Claro.Ticklers.Presentacion.Web/Login.aspx"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Por agregar"
+    },
+    {
+      "id": "1736960627009",
+      "name": "Administrador APN",
+      "category": "apps",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "http://100.123.250.103:8087/ApnsLogin/Login"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Administra la creación de segmentos de IP's para APN's privados (Access Point Native)"
+    },
+    {
+      "id": "1736979994801",
+      "name": "Matriz de Escalamiento",
+      "category": "apps",
+      "image": "img/matriz.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://claromovilco.sharepoint.com/:x:/s/SoporteN3-Postventa/EQt18Do1jqdLlOJNjQN9D7MB4wmTUfAHuV6Y_uD1-9PZJg?e=iocSaU"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Aquí encontraras todos los contactos para escalar casos o los equipos de los que dependemos en INC o REQ según el caso adjunto"
+    },
+    {
+      "id": "1738678550395",
+      "name": "Convergencia",
+      "category": "gestion-claro",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://convergencia.claro.com.co/sigma/app/index?next=%2Fsigma%2Fapp%2Findex%2Fhome#/login"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestiona los cambios de contraseña, sincroniza todas las apps de Claro "
+    },
+    {
+      "id": "1739810281835",
+      "name": "Triara",
+      "category": "gestion-claro",
+      "image": "img/PCRF.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://servicio.triara.co/centrodeservicios/index.do?ctx=docEngine&file=request&query=number%3D%22RF1860509%22&action=&title=Requerimiento+RF1860509&lang="
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestión de acuerdos de servicio"
+    }
+  ]
+}
