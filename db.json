@@ -171,13 +171,9 @@
         },
         {
           "label": "Info"
-        },
-        {
-          "label": "IR server 2016 en adelante",
-          "url": "https://nwb24282.live.dynatrace.com/#dashboard;gtf=-30m;gf=all;id=b2828c63-d1d4-4a29-8648-51980f69ef16"
         }
       ],
-      "info": "Información en Dashboard de las apliaciones que soportamos, AC solo tiene visual de un 12%"
+      "info": "Gestiona los PBI de la vertical de AC, horas extras y solicitudes de horas a aprobar"
     },
     {
       "id": "4",
