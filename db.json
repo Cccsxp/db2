@@ -159,6 +159,26 @@
       ],
       "info": "Información en Dashboard de las apliaciones que soportamos, AC solo tiene visual de un 12%"
     },
+        {
+      "id": "334879438734987343",
+      "name": "Matriz PBI",
+      "category": "gestion-claro",
+      "image": "img/Base_de_Datos-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://apps.powerapps.com/play/e/fdb6b344-5f27-ea79-af8d-931ee53b32e2/a/4335c686-0b3c-46bb-b4b5-487ec66e9329?tenantId=46bb22b8-4c2c-40ff-8360-7b6334821279&hint=d255a43e-b466-422d-9f0f-e301893e6ec1&sourcetime=1745967799055"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "IR server 2016 en adelante",
+          "url": "https://nwb24282.live.dynatrace.com/#dashboard;gtf=-30m;gf=all;id=b2828c63-d1d4-4a29-8648-51980f69ef16"
+        }
+      ],
+      "info": "Información en Dashboard de las apliaciones que soportamos, AC solo tiene visual de un 12%"
+    },
     {
       "id": "4",
       "name": "SHAREPOINT General",
