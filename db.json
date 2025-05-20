@@ -175,6 +175,38 @@
       ],
       "info": "Gestiona los PBI de la vertical de AC, horas extras y solicitudes de horas a aprobar"
     },
+            {
+      "id": "33487943873494983794383",
+      "name": "CIEL",
+      "category": "gestion-claro",
+      "image": "img/Base_de_Datos-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://cieling.zohodesk.com/portal/es/home"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestiona los tickets hacia Ciel para Digiturnos5"
+    },
+                {
+      "id": "3348794948934784987343",
+      "name": "LOOP",
+      "category": "gestion-claro",
+      "image": "img/Base_de_Datos-removebg-preview.png",
+      "submenu": [
+        {
+          "label": "IR",
+          "url": "https://loop.cloud.microsoft/p/eyJ3Ijp7InUiOiJodHRwczovL2NsYXJvbW92aWxjby5zaGFyZXBvaW50LmNvbS8%2FbmF2PWN6MGxNa1ltWkQxaUlXdzJZMWxUY0hwT2RsVnhWMHROYWkxelFXdDNZemhFTmpsT2FXVnpTbEpHZEhkMWVGbHlSeTFGVjFWVlRWRjZZV3Q2YlVaVE5VOVphRzFzVFVaUVdtTW1aajB3TVROWU5EYzBWRUZFVkVVM05sQk9TbEJXUmtOTVUwYzNVMDlJV0ZoU1VWYzBKbU05Sm1ac2RXbGtQVEUlM0QiLCJyIjpmYWxzZX0sInAiOnsidSI6Imh0dHBzOi8vY2xhcm9tb3ZpbGNvLnNoYXJlcG9pbnQuY29tLzpmbDovci9jb250ZW50c3RvcmFnZS9DU1BfNGExOGE3OTctY2Q5Yy00YWJkLTk2MjgtYzhmZWIwMDkzMDczL2xhJTIwQmlibGlvdGVjYSUyMGRlJTIwZG9jdW1lbnRvcy9Mb29wQXBwRGF0YS9TaW4lMjB0JUMzJUFEdHVsby5sb29wP2Q9dzBmMTRjMGU5YTEzMTQ5NGE4YWE2Y2MyMGEwY2MzNDdjJmNzZj0xJndlYj0xJm5hdj1jejBsTWtaamIyNTBaVzUwYzNSdmNtRm5aU1V5UmtOVFVGODBZVEU0WVRjNU55MWpaRGxqTFRSaFltUXRPVFl5T0Mxak9HWmxZakF3T1RNd056TW1aRDFpSVd3MlkxbFRjSHBPZGxWeFYwdE5haTF6UVd0M1l6aEVOamxPYVdWelNsSkdkSGQxZUZseVJ5MUZWMVZWVFZGNllXdDZiVVpUTlU5WmFHMXNUVVpRV21NbVpqMHdNVE5ZTkRjMFZFaEtXVUZMUVRaTlRrSktTa1ZaVmtwWFRVVkRVVTFaVGtRMEptTTlKVEpHSm1ac2RXbGtQVEVtWVQxTWIyOXdRWEJ3Sm5BOUpUUXdabXgxYVdSNEpUSkdiRzl2Y0Mxd1lXZGxMV052Ym5SaGFXNWxjaVo0UFNVM1FpVXlNbmNsTWpJbE0wRWxNakpVTUZKVVZVaDRhbUpIUm5saU1qRjJaRzFzYzFreU9IVmpNbWhvWTIxV2QySXliSFZrUXpWcVlqSXhPRmxwUm5OT2JVNWFWVE5DTmxSdVdsWmpWbVJNVkZkdmRHTXdSbkprTWswMFVrUlpOVlJ0Ykd4ak1IQlRVbTVTTTJSWWFGcGphMk4wVWxaa1ZsWlZNVkpsYlVaeVpXMHhSMVY2VmxCWFYyaDBZa1V4UjFWR2NHcG1SRUY0VFRGbk1FNTZVbFZSVlZKVlVsUmpNbFZGTlV0VlJscEhVVEI0VkZKNlpGUlVNR2haVjBaS1VsWjZVU1V6UkNVeU1pVXlReVV5TW1rbE1qSWxNMEVsTWpJd01qTmpOREptTkMwM016SXhMVFF3TmpFdFlUYzVNeTFqTmpNNE9HUXdNalF6TXpRbE1qSWxOMFElM0QiLCJyIjpmYWxzZX0sImkiOnsiaSI6IjAyM2M0MmY0LTczMjEtNDA2MS1hNzkzLWM2Mzg4ZDAyNDMzNCJ9fQ%3D%3D?podId=T0RTUHxjbGFyb21vdmlsY28uc2hhcmVwb2ludC5jb218YiFsNmNZU3B6TnZVcVdLTWotc0Frd2M4RDY5Tmllc0pSRnR3dXhZckctRVdVVU1RemFrem1GUzVPWWhtbE1GUFpjfDAxM1g0NzRUQURURTc2UE5KUFZGQ0xTRzdTT0hYWFJRVzQ%3D"
+        },
+        {
+          "label": "Info"
+        }
+      ],
+      "info": "Gestiona los tickets hacia Ciel para Digiturnos5"
+    },
     {
       "id": "4",
       "name": "SHAREPOINT General",
